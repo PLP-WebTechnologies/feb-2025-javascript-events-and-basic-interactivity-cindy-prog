@@ -3,35 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WEEK3 ASSIGNMENT</title>
+    <title>WEEK4 ASSIGNMENT</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header id="main-head">
-        <h1>Registration Form</h1>
+    <header class="header">
+       <div class="photos">photos</div>
+       <nav class="nav">
+        <ul class="nav-list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+       </nav>
+       <button class="mobile-menu-button">---</button>
     </header>
-    <div class="form-container">
-        <form id="contact-form">
-            <div class="form-group">
-                <label for="name"> Full Name</label>
-                <input type="text" id="name" name="name" class="form-control" required>
-            </div>
-            <div class="form-group">
-                <label for="email"> Email Address</label>
-                <input type="email" id="email" name="email" class="form-control" required>
-            </div>
-            <div class="form-group">
-                <label for="phone"> Phone Number</label>
-                <input type="tel" id="phone" name="phone" class="form-control">
-            </div>
-            <div class="form-group">
-                <button type="submit" class="btn">Submit Form</button>
-            </div>
-        </form>
-    </div>
+    <main class="main-content">
+        <section class="hero">
+            <h1>my first css file</h1>
+            <p>discover how to display photos</p>
+        </section>
+        <section class="gallery">
+            <div class="photo-item"><img src="C:\Users\cindy\OneDrive\Documents\assignments\photos\pic 1.jpg" alt="pic 1"></div>
+            <div class="photo-item"><img src="C:\Users\cindy\OneDrive\Documents\assignments\photos\pic 2.jpg" alt="pic 2"></div>
+            <div class="photo-item"><img src="C:\Users\cindy\OneDrive\Documents\assignments\photos\pic 3.jpg" alt="pic 3"></div>
+            <div class="photo-item"><img src="C:\Users\cindy\OneDrive\Documents\assignments\photos\pic 4.jpg" alt="pic 4"></div>
+        </section>
+    </main>
 
-    <footer id="page-footer">
-        <p>&copy; 2025 EmpiSolutions. All rights Reserved.</p>
+    <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>EmpiSolutions</h3>
+                    <p>About Us</p>
+                    <p>Careers</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>Email: empisolutions@gmail.com</p>
+                    <p>Phone: (254) 7088-22007</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <p>Twitter</p>
+                    <p>Facebook</p>
+                    <p>Instagram</p>
+                </div>
+            </div>
+            <div class="copyright">
+                 <p>&copy; 2025 EmpiSolutions. All rights Reserved.</p>
+            </div>
     </footer>
    
 </body>
