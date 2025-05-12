@@ -3,57 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WEEK4 ASSIGNMENT</title>
+    <title>WEEK5 ASSIGNMENT</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="header">
-       <div class="photos">photos</div>
-       <nav class="nav">
-        <ul class="nav-list">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-       </nav>
-       <button class="mobile-menu-button">---</button>
+       <h1 id="main-heading">javascript assignment</h1>
     </header>
     <main class="main-content">
-        <section class="hero">
-            <h1>my first css file</h1>
-            <p>discover how to display photos</p>
+        <section class="control-panel">
+            <button id="change-text-btn" class="btn">Change Heading Text</button>
+            <button id="change-style-btn" class="btn">Toggle Dark Mode</button>
+            <button id="add-element-btn" class="btn">Add New Item</button>
+            <button id="remove-element-btn" class="btn">Remove Last Item</button>
         </section>
-        <section class="gallery">
-            <div class="photo-item"><img src="C:\Users\cindy\OneDrive\Documents\assignments\photos\pic 1.jpg" alt="pic 1"></div>
-            <div class="photo-item"><img src="C:\Users\cindy\OneDrive\Documents\assignments\photos\pic 2.jpg" alt="pic 2"></div>
-            <div class="photo-item"><img src="C:\Users\cindy\OneDrive\Documents\assignments\photos\pic 3.jpg" alt="pic 3"></div>
-            <div class="photo-item"><img src="C:\Users\cindy\OneDrive\Documents\assignments\photos\pic 4.jpg" alt="pic 4"></div>
+
+        <section class="content-area">
+            <article class="card">
+                <h2>Welcome to the javascript Demo</h2>
+                <p id="dynamic-text">This content can be changed dynamically with JavaScript.</p>
+                <ul id="item-list">
+                    <li>Initial item 1</li>
+                    <li>Initial item 2</li>
+                </ul>
+            </article>
         </section>
     </main>
 
     <footer class="footer">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h3>EmpiSolutions</h3>
-                    <p>About Us</p>
-                    <p>Careers</p>
-                </div>
-                <div class="footer-section">
-                    <h3>Contact</h3>
-                    <p>Email: empisolutions@gmail.com</p>
-                    <p>Phone: (254) 7088-22007</p>
-                </div>
-                <div class="footer-section">
-                    <h3>Follow Us</h3>
-                    <p>Twitter</p>
-                    <p>Facebook</p>
-                    <p>Instagram</p>
-                </div>
-            </div>
-            <div class="copyright">
-                 <p>&copy; 2025 EmpiSolutions. All rights Reserved.</p>
-            </div>
+          <p id="footer-text">&copy; 2025 EmpiSolutions. All rights Reserved.</p>
     </footer>
-   
+     <script src="script.js"></script>
 </body>
 </html>
